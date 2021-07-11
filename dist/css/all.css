@@ -1,19 +1,16 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 0px 20px;
 }
-
 body ::before, body ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
 body img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 body a {
   text-decoration: none;
   display: block;
@@ -64,7 +61,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -79,19 +76,15 @@ table {
   text-align: center;
   font-style: italic;
 }
-
 .index .mb-40 {
   margin-bottom: 40px;
 }
-
 .index .mb-24 {
   margin-bottom: 24px;
 }
-
 .index .mb-16 {
   margin-bottom: 16px;
 }
-
 .index .banner {
   background-image: url(../../dist/image/banner.png);
   background-position: center;
@@ -112,79 +105,64 @@ table {
           align-items: center;
   color: white;
 }
-
 .index .banner .introduction .greeting {
   font-size: 24px;
   line-height: 42px;
   text-align: left;
 }
-
 .index .banner .introduction h1 {
   font-size: 80px;
   line-height: 106px;
   margin-bottom: 32px;
 }
-
 .index .banner .introduction p {
   font-size: 24px;
   line-height: 36px;
 }
-
 .index .banner .introduction .social_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .index .banner .introduction .social_list li {
   margin: 0px 8px;
 }
-
 .index .banner .introduction .social_list img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-
 .index .info {
   font-weight: bold;
   margin: 56px auto;
 }
-
 .index .info h2 {
   font-size: 64px;
   line-height: 84px;
 }
-
 .index .info .img_wrapper {
   width: 384px;
   height: 384px;
   margin: 0 auto;
 }
-
 .index .info .img_wrapper img {
   width: 100%;
 }
-
 .index .info li {
   font-size: 24px;
   line-height: 42px;
   margin-bottom: 8px;
 }
-
 .index .info .info_content {
   margin-top: 20px;
 }
-
 .index .info .info_content .info_school {
   font-size: 24px;
   line-height: 36px;
   padding-bottom: 24px;
 }
-
 .index .info .info_content .info_jobs {
   margin-top: 28px;
 }
-
 .index .info .info_content .info_jobs li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,7 +177,6 @@ table {
   line-height: 42px;
   margin-bottom: 28px;
 }
-
 .index .info .info_content .info_jobs .circle {
   background-color: #891818;
   border-radius: 180px;
@@ -207,35 +184,29 @@ table {
   height: 22px;
   margin-right: 16px;
 }
-
 .index .container-fluid {
   background-color: black;
   color: white;
 }
-
 .index .container-fluid .brand {
   padding: 56px 0 160px 0px;
   margin-bottom: 56px;
 }
-
 .index .container-fluid .brand h3 {
   font-size: 64px;
   line-height: 84px;
   margin-bottom: 12px;
 }
-
 .index .container-fluid .brand p {
   font-size: 24px;
   line-height: 42px;
   margin-bottom: 32px;
 }
-
 .index .container-fluid .brand .brand_info {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 68px;
 }
-
 .index .container-fluid .brand .brand_pic {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -246,32 +217,29 @@ table {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .index .container-fluid .brand .brand_pic li {
   width: 48%;
 }
-
 .index .container-fluid .brand .brand_pic li img {
   width: 100%;
 }
-
 .index .container-fluid .brand .brand_pic .brand_pic_1 {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 40px;
 }
-
+.index .works {
+  margin-bottom: 144px;
+}
 .index .works h4 {
   font-size: 64px;
   line-height: 84px;
 }
-
 .index .works p {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 56px;
 }
-
 .index .works .works_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,37 +250,29 @@ table {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .index .works .works_list p {
   font-size: 20px;
   line-height: 42px;
   font-weight: bold;
 }
-
 .index .works .works_list li {
   width: 33.33333%;
 }
-
 .index .works .works_list .works_list_4, .index .works .works_list .works_list_5 {
   width: 50%;
 }
-
 .index .works .works_list .works_wrapper {
   margin-bottom: 16px;
 }
-
 .index .contact {
   padding: 64px 0px;
 }
-
 .index .contact h5 {
   font-size: 64px;
   line-height: 84px;
 }
-
 .index .contact a {
   font-size: 24px;
   line-height: 36px;
   color: white;
 }
-/*# sourceMappingURL=all.css.map */
