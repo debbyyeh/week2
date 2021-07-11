@@ -4,6 +4,7 @@
     margin: 0 auto;
     text-align: center;
     font-style: italic;
+    font-weight: bold;
     }
     .mb-40 {
     margin-bottom: 40px;
@@ -49,7 +50,6 @@
         }
     }
     .info {
-        font-weight: bold;
         margin: 56px auto;
         h2 {
             @include word(64px,84px);
@@ -147,12 +147,17 @@
             }
             li {
                 width:33.33333%;
+                margin-bottom: 48px;
+                img {
+                    margin-bottom: 16px;
+                }
+                figurecaption {
+                @include word (20px,42px);
+                margin-top: 16px;
+                }
             }
             .works_list_4,.works_list_5{
                 width:50%;
-            }
-            .works_wrapper {
-                margin-bottom: 16px;
             }
         }
     }

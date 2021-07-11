@@ -75,6 +75,7 @@ table {
   margin: 0 auto;
   text-align: center;
   font-style: italic;
+  font-weight: bold;
 }
 .index .mb-40 {
   margin-bottom: 40px;
@@ -133,7 +134,6 @@ table {
           transform: scale(1.2);
 }
 .index .info {
-  font-weight: bold;
   margin: 56px auto;
 }
 .index .info h2 {
@@ -259,12 +259,18 @@ table {
 }
 .index .works .works_list li {
   width: 33.33333%;
+  margin-bottom: 48px;
+}
+.index .works .works_list li img {
+  margin-bottom: 16px;
+}
+.index .works .works_list li figurecaption {
+  font-size: 20px;
+  line-height: 42px;
+  margin-top: 16px;
 }
 .index .works .works_list .works_list_4, .index .works .works_list .works_list_5 {
   width: 50%;
-}
-.index .works .works_list .works_wrapper {
-  margin-bottom: 16px;
 }
 .index .contact {
   padding: 64px 0px;
