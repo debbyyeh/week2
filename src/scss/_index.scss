@@ -79,13 +79,14 @@
                     align-items: center;
                     @include word (24px,42px);
                     margin-bottom: 28px;
-                }
-                .circle {
+                    &::before {
+                    content:"";
                     background-color: #891818;
                     border-radius: 180px;
                     width:22px;
                     height:22px;
                     margin-right: 16px;
+                    }
                 }
             }
         }
