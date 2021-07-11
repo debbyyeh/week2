@@ -116,14 +116,13 @@
                 flex-wrap: wrap;
                 li {
                     width:48%;
-                    img {
-                        width:100%;
-                    }
                 }
                 .brand_pic_1 {
-                    width:70%;
-                    margin: 0 auto;
-                    margin-bottom: 40px;
+                    width:100%;
+                    margin-bottom:40px;
+                    img {
+                        margin: 0 auto;
+                    }
                 }
             }
         }

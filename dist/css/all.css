@@ -222,13 +222,12 @@ table {
 .index .container-fluid .brand .brand_pic li {
   width: 48%;
 }
-.index .container-fluid .brand .brand_pic li img {
-  width: 100%;
-}
 .index .container-fluid .brand .brand_pic .brand_pic_1 {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
   margin-bottom: 40px;
+}
+.index .container-fluid .brand .brand_pic .brand_pic_1 img {
+  margin: 0 auto;
 }
 .index .works {
   margin-bottom: 144px;
