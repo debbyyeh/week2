@@ -81,6 +81,7 @@
                     margin-bottom: 28px;
                     &::before {
                     content:"";
+                    display: inline-block;
                     background-color: #891818;
                     border-radius: 180px;
                     width:22px;
