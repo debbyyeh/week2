@@ -1,0 +1,166 @@
+.index {
+    .container {
+    max-width:1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    }
+    .mb-40 {
+    margin-bottom: 40px;
+    }
+    .mb-24 {
+        margin-bottom: 24px;
+    }
+    .mb-16 {
+        margin-bottom: 16px;
+    }
+    .banner {
+        background-image: url(../../dist/image/banner.png);
+        background-position: center;
+        width:100%;
+        height:958px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        .introduction {
+           .greeting {
+            @include word(24px,42px);
+            text-align: left;
+        }
+            h1 {
+                @include word(80px,106px);
+                margin-bottom: 32px;
+            }
+            p {
+                @include word(24px,36px);
+            }
+            .social_list {
+                display:flex;
+                li {
+                    margin:0px 8px;
+                }
+                img:hover {
+                    transform:scale(1.2);
+                }
+            } 
+        }
+    }
+    .info {
+        font-weight: bold;
+        margin: 56px auto;
+        h2 {
+            @include word(64px,84px);
+        }
+        .img_wrapper {
+            width:384px;
+            height:384px;
+            margin: 0 auto; 
+            img {
+                width:100%;
+            }
+        }
+        li {
+            @include word (24px,42px);
+            margin-bottom: 8px;
+        }
+        .info_content {
+            margin-top: 20px;
+            .info_school {
+                @include word (24px,36px);
+                padding-bottom: 24px;
+            }
+            .info_jobs {
+                margin-top: 28px;
+                li {
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    @include word (24px,42px);
+                    margin-bottom: 28px;
+                }
+                .circle {
+                    background-color: #891818;
+                    border-radius: 180px;
+                    width:22px;
+                    height:22px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+    .container-fluid {
+        background-color: black;
+        color:white;
+        .brand {
+            padding: 56px 0 160px 0px;
+            margin-bottom: 56px;
+            h3 {
+                @include word(64px,84px);
+                margin-bottom: 12px;
+            }
+            p {
+                @include word (24px,42px);
+                margin-bottom: 32px;
+            }
+            .brand_info {
+                @include word (20px,30px);
+                margin-bottom: 68px;
+            }
+            .brand_pic {
+                display:flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li {
+                    width:48%;
+                    img {
+                        width:100%;
+                    }
+                }
+                .brand_pic_1 {
+                    width:70%;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .works {
+        h4 {
+            @include word(64px,84px);
+        }
+        p {
+            @include word(20px,30px);
+            margin-bottom: 56px;
+        }
+        .works_list {
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            p {
+               @include word(20px,42px); 
+               font-weight: bold;
+            }
+            li {
+                width:33.33333%;
+            }
+            .works_list_4,.works_list_5{
+                width:50%;
+            }
+            .works_wrapper {
+                margin-bottom: 16px;
+            }
+        }
+    }
+    .contact {
+        padding:64px 0px;
+        h5 {
+            @include word (64px,84px);
+        }
+        a {
+             @include word(24px,36px);
+            color:white;
+        }
+    }
+}

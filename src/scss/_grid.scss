@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding:0px 20px;
+    ::before,::after {
+        box-sizing: border-box;
+    }
+    img {
+        display:block;
+        max-width:100%;
+        height:auto;
+    }
+    a {
+        text-decoration: none;
+        display:block;
+    }
+}
