@@ -129,9 +129,9 @@ table {
 .index .banner .introduction .social_list li {
   margin: 0px 8px;
 }
-.index .banner .introduction .social_list img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.index .banner .introduction .social_list li a:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 .index .info {
   margin: 56px auto;
@@ -255,7 +255,6 @@ table {
 .index .works .works_list p {
   font-size: 20px;
   line-height: 42px;
-  font-weight: bold;
 }
 .index .works .works_list li {
   width: 33.33333%;

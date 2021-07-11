@@ -42,9 +42,9 @@
                 display:flex;
                 li {
                     margin:0px 8px;
-                }
-                img:hover {
-                    transform:scale(1.2);
+                    a:hover {
+                    filter:brightness(80%);
+                    }
                 }
             } 
         }
@@ -142,8 +142,7 @@
             justify-content: space-between;
             flex-wrap: wrap;
             p {
-               @include word(20px,42px); 
-               font-weight: bold;
+               @include word(20px,42px);
             }
             li {
                 width:33.33333%;
@@ -167,7 +166,7 @@
             @include word (64px,84px);
         }
         a {
-             @include word(24px,36px);
+            @include word(24px,36px);
             color:white;
         }
     }
