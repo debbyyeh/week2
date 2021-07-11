@@ -35,6 +35,7 @@
             }
             p {
                 @include word(24px,36px);
+                text-align: left;
             }
             .social_list {
                 display:flex;
